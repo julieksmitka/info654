@@ -16,12 +16,16 @@ Professor: Rik Vanmechelen
     - **title tag** `<title>`; **title element** contains the page title
   - **body tag** `<body>`; the **body element** contains:
     - **heading elements** `<h1>Hello world</h1>`, `<h2>This is my first web page</h2>`, etc.
-2. index.html—an in-class exercise to create a homepage and demonstrate:
+2. index.html—an in-class exercise to create a homepage that matches a provided example (from Week 6 Slide 36) and demonstrate:
 - more heading elements 
 - body text ("Hello world.")
 - **paragraph tag** `<p>`
 - **anchor tag** `<a>` with a **hyperlink reference attribute** for an **absolute link** (a link off to another website) `<a href="https://www.pratt.edu"</a>`
 - **unordered list tag** `<ul>`
 - **list tag** `<li>`
+- **table element** that contains:
+  - **table row tag** `<tr>`
+  - **table heading tag** `<th>`
+  - **table data tag** `<td>` 
 3. html-lab.html
 4. week-6-exercises.html
