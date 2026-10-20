@@ -1,0 +1,112 @@
+/* Body */
+
+body {
+    background-color: black;
+    color: white; 
+/*In class, a Rothko image was used as an example of how to use an image as a background. I’m not using a background image here, but noting how I could. background-image: url(“marble-spider.jpeg”);*/
+}
+
+/* Headings */
+
+    /* Level 2 headings */
+
+h2 {
+    color: #008080; /*This is the hex code for teal.*/
+    margin-left: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+    /* Headings using the ID selector "#h2centerred" */
+
+#h2centerred {
+    text-align: center;
+    color: red;
+}
+
+/* Paragraphs */
+
+    /* Fonts */
+
+p {
+    font-style: italic;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    /* Texts */
+
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 20px;
+
+    background-color: #dddddd; 
+    /*The background color specified here is the hex code for a light gray. No text color is specified. Text color will be inherited from the body, which is white.*/
+   
+    padding: 10px;
+    border-radius: 25px;
+    border-style: dotted solid; 
+    border-width: 5px; 
+    border-color: blue;
+}
+
+/* Centered orange paragraphs using the combined selector "p.center" */
+
+p.center {
+    text-align: center;
+    color: orange;
+}
+
+/* Centered green elements using the “centergreen” class selector */
+
+.centergreen {
+    text-align: center;
+    color: green;
+}
+
+/* Links */
+
+    /* Unvisited links */
+
+a:link {
+    color: #FF0000;
+}
+
+    /* Visited links */
+
+a:visited {
+    color: #00FF00;
+}
+
+    /* Mouseover/Hover links */
+
+a:hover {
+    color: #FF00FF;
+    background-color: blue;
+}
+
+    /* Selected/Active links */
+
+a:active {
+    color: #0000FF;
+}
+
+/* Tables */
+
+table {
+    border-color: blue;
+    border-style: dashed;
+}
+
+/* Table cells */
+
+td {
+    border-color: #FFBD32;
+    border-style: solid;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
