@@ -41,33 +41,30 @@
     box-sizing: border-box;
 }
 
-#center-body 
-{
-    float: left;
-    width: 67%;
-    padding: 10px;
-    margin: 1%;
-    text-align: left;
-    border: 1px outset rgb(133, 26, 35);
-    min-height: 180px;
-    box-sizing: border-box;
-}
-
-#center-body ul 
-{
-    text-align: left;
-}
-
+#center-body,
 #center-bodywho 
 {
     float: left;
-    width: 42%;
     padding: 10px;
     margin: 1%;
     text-align: left;
     border: 1px outset rgb(133, 26, 35);
     min-height: 180px;
     box-sizing: border-box;
+}
+
+#center-body {
+    width: 67%;
+}
+
+#center-bodywho {
+    width: 42%;
+}
+
+#center-body ul, 
+#center-bodywho ul
+{
+    text-align: left;
 }
 
 #nav 
