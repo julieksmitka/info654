@@ -30,6 +30,17 @@
     margin-top: 5px;
 }
 
+#leftboxwho 
+{
+    float: left;
+    width: 42%;
+    padding: 5px 10px;
+    margin: 1%;
+    text-align: left;
+    border: 2px dashed teal;
+    box-sizing: border-box;
+}
+
 #center-body 
 {
     float: left;
@@ -45,6 +56,18 @@
 #center-body ul 
 {
     text-align: left;
+}
+
+#center-bodywho 
+{
+    float: left;
+    width: 42%;
+    padding: 10px;
+    margin: 1%;
+    text-align: left;
+    border: 1px outset rgb(133, 26, 35);
+    min-height: 180px;
+    box-sizing: border-box;
 }
 
 #nav 
