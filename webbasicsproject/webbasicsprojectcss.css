@@ -90,7 +90,7 @@
 
 #content {
     display: grid;
-    grid-template-columns: 1fr 1fr 10%;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: auto auto;
     gap: 10px;
     align-items: stretch;
@@ -101,6 +101,8 @@
 {
     grid-column: 1;
     grid-row: 1;
+    float: none;
+    width: auto;
     padding: 10px;
     margin: 0;
     min-width: 0;
@@ -122,6 +124,8 @@
 {
     grid-column: 3;
     grid-row: 1;
+    float: none;
+    width: auto;
     margin: 0;
 }
 
