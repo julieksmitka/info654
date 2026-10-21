@@ -3,139 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="webbasicsprojectcss.css">
 <title>Anything else?</title>
-<style>
-
-#header,#footer 
-{
-    width:100%; 
-    text-align:center; 
-    border-radius: 0px;
-}
-
-#header {background:rgb(171, 124, 212); color:black; border:3px 
-solid #851a23c8;}
-
-#content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 10%;
-    grid-template-rows: auto auto;
-    gap: 10px;
-    align-items: stretch;
-    margin-top: 20px;
-}
-
-#leftbox 
-
-{
-    grid-column: 1;
-    grid-row: 1;
-    padding: 10px;
-    margin: 0;
-    text-align: left;
-    border: 2px dashed teal;
-    box-sizing: border-box;
-    min-width: 0;
-}
-
-#leftbox ul 
-
-{
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 5px;
-}
-
-#centerbox 
-
-{
-    grid-column: 2;
-    grid-row: 1;
-    padding: 10px;
-    margin: 0;
-    text-align: left;
-    border: 1px outset rgb(133, 26, 35);
-    box-sizing: border-box;
-    min-width: 0;
-}
-
-#centerbox ul 
-
-{
-    text-align: left;
-}
-
-#nav 
-
-{
-    grid-column: 3;
-    grid-row: 1;
-    padding: 5px 10px;
-    margin: 0;
-    text-align: center;
-    border: 2px dashed teal;
-    box-sizing: border-box;
-}
-
-#nav ul 
-
-{
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 5px;
-}
-
-#bottomleftbox
-
-{
-    grid-column: 1;
-    grid-row: 2;
-    padding: 10px;
-    border: 2px dashed teal;
-    box-sizing: border-box;
-    min-width: 0;
-}
-
-#bottomrightbox 
-
-{
-    grid-column: 2;
-    grid-row: 2;
-    padding: 10px;
-    border: 2px dashed teal;
-    box-sizing: border-box;
-    min-width: 0;
-}
-
-.center-reddish-color
-{
-    text-align: center;
-    color:#851a23c8
-}
-
-.center-bold 
-{
-    text-align:center;
-    color:#000000;
-    font-weight:bold;
-}
-
-#footer 
-{
-    clear:both;
-    background:#851a23c8;
-    color:black;
-
-}
-
-#footer ul 
-{
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 5px;
-}
-
-</style>
 </head>
 
 <body>
@@ -150,12 +19,11 @@ solid #851a23c8;}
     <h3 class="center-reddish-color">Autumn Harvest Soup</h3>
 <br>
     <figure>
-            <img 
-            src="images/soup.jpg"
-            alt="A bowl of orange soup and a side of buttered toast."
-            style="width: 100%; 
-            height: auto; 
-            display: block;">
+         <img
+    class="responsive-image"
+    src="images/soup.jpg"
+    alt="A bowl of orange soup and a side of buttered toast.">
+    </a>
 <figcaption>
     <p>A simple soup of butternut squash, apples, and carrots—<a href="https://ourbalancedbowl.com/autumn-harvest-soup/" target="_blank" rel="noopener noreferrer">recipe here</a>.</p>
 </figcaption>
@@ -182,11 +50,10 @@ solid #851a23c8;}
     <br>
     <figure>
             <img 
-            src="images/sachets.jpg"
-            alt="A golden pouch-like star and moon both pinned to a lavender colored wall."
-            style="width: 100%; 
-            height: auto; 
-            display: block;">
+    class="responsive-image"
+    src="images/sachets.jpg"
+    alt="A golden pouch-like star and moon both pinned to a lavender colored wall.">
+    </a>
 <figcaption>
     <p>Golden fabric scraps hand-sewn into shapes and filled with last year's Christmas tree needles.</p>
 </figcaption>
@@ -198,12 +65,11 @@ solid #851a23c8;}
     <h3 class="center-reddish-color">Beaded Lizards</h3>
 <br>
     <figure>
-            <img 
-            src="images/lizards.jpg"
-            alt="Three beaded lizard keychains in the palm of a hand."
-            style="width: 100%; 
-            height: auto; 
-            display: block;">
+        <img 
+    class="responsive-image"
+    src="images/lizards.jpg"
+    alt="Three beaded lizard keychains in the palm of a hand.">
+    </a>
 <figcaption>
     <p>Tiny keychain lizards made of glow-in-the-dark seed beads, for my 90s friends—<a href="https://www.crafts-for-all-seasons.com/lizard-lanyard.html" target="_blank" rel="noopener noreferrer">tutorial here</a>.</p>
 </figcaption>
@@ -216,11 +82,10 @@ solid #851a23c8;}
 <br>
     <figure>
             <img 
-            src="images/red-room.jpg"
-            alt="A calico cat sitting on a chevron rug, wide-eyed. A long red curtain hangs in the background."
-            style="width: 100%; 
-            height: auto; 
-            display: block;">
+    class="responsive-image"
+    src="images/red-room.jpg"
+    alt="A calico cat sitting on a chevron rug, wide-eyed. A long red curtain hangs in the background.">
+    </a>
 <figcaption>
     <p>The Red Room, from <i>Twin Peaks</i>, in the (already) creepy foyer of my apartment, ahead of hosting a Halloween movie marathon—<a href="https://twinpeaks.fandom.com/wiki/Red_room" target="_blank" rel="noopener noreferrer"><i>Twin Peaks</i> spoilers here</a>.</p>
 </figcaption>
