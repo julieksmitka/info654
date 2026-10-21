@@ -93,7 +93,7 @@
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: auto auto;
     gap: 10px;
-    align-items: stretch;
+    align-items: start;
     margin-top: 20px;
 }
 
