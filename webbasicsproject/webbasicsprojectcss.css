@@ -78,6 +78,18 @@
     font-weight:bold;
 }
 
+figure 
+{
+    width: 75%;
+    margin: 1em auto;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 #footer 
 {
     clear:both;
