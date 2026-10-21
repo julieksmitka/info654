@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Julie's Web Basics Project</title>
+<style>
+
+#header,#footer 
+{
+    width:100%; 
+    text-align:center; 
+    border-radius: 0px;
+}
+
+#header {background:rgb(171, 124, 212); color:black; border:3px 
+solid #851a23c8;}
+
+#leftbox 
+{
+    float: left;
+    width: 17%;
+    padding: 5px 10px;
+    margin: 1%;
+    text-align: left;
+    border: 2px dashed teal;
+    box-sizing: border-box;
+}
+
+#leftbox ul 
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+#center-body 
+{
+    float: left;
+    width: 67%;
+    padding: 10px;
+    margin: 1%;
+    text-align: left;
+    border: 1px outset rgb(133, 26, 35);
+    min-height: 180px;
+    box-sizing: border-box;
+}
+
+#center-body ul 
+{
+    text-align: left;
+}
+
+#nav 
+{
+    float: right;
+    width: 10%;
+    padding: 5px 10px;
+    margin: 1%;
+    text-align: center;
+    border: 2px dashed teal;
+    box-sizing: border-box;
+}
+
+#nav ul 
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.center-reddish-color
+{
+    text-align: center;
+    color:#851a23c8
+}
+
+.center-bold 
+{
+    text-align:center;
+    color:#000000;
+    font-weight:bold;
+}
+
+#footer 
+{
+    clear:both;
+    background:#851a23c8;
+    color:black;
+
+}
+
+</style>
+</head>
+
+<body>
+<div id="header">
+
+    <h1>Welcome to Julie's Web Basics Project!</h1>
+</div>
+
+<div id="leftbox">
+    <h3>the project</h3>
+        <p>The goal of this project is to create a website that demonstrates the HTML and CSS skills covered in 3 weeks of class. Its content is not as important as its presentation. The content should make sense by illustrating the coding requirements.</p>
+        <p>Perhaps this is a test of style over substance.</p>
+    <p class="center-bold">;-)</p>
+</div>
+
+<div id="nav">
+    <h3>where are we?</h3>
+    <ul>
+        <li><a href="index.html">what is this?</a></li>
+        <br>
+        <li><a href="who-is-julie">who is julie?</a></li>
+        <br>
+        <li><a href="anything-else">anything else?</a></li>
+    </ul>
+</div> 
+
+<div id="center-body">
+    <h2 class="center-reddish-color">What is this?</h2>
+<p>As part of <a href="https://www.pratt.edu/courses/information-technologies/">INFO-654: Information Technologies</a>, a course at Pratt Institute, students are tasked with creating a website. For this assignment, there are 24 requirements, one of which is the inclusion of an image that links to an external website.</p>
+
+<figure>
+<a href="https://www.poetryfoundation.org/poems/45473/a-noiseless-patient-spider">
+    <img src="images/spider-cat.jpg" alt="A calico cat wearing a spider costume, perched on the arm of a couch." 
+    style="max-width: 100%; height: auto;">
+</a>
+<figcaption>My 13-year-old calico cat Marble, dressed as a spider. I've linked this photo to "A Noiseless Patient Spider"—a poem by Walt Whitman.</figcaption>
+</figure>
+<p>Other requirements include:</p>
+<ul>
+   <li>an unordered list</li>
+   <li>a list that is nested
+        <ul>
+            <li>that is, a list within a list</li>
+            <li>useful when communicating hierarchies, like this</li>
+        </ul>
+    </li>
+    <li>a table, with any content, using either table tags or div tags</li>
+</ul>
+
+<h3 class="center-reddish-color">Rubric for Web Basics Project</h3>
+<p>Below is the rubric for this assignment, recreated here with &lt;div&gt; and the hope of earning more points for not using &lt;table&gt;.</p> 
+
+    <div class="grid-table">
+    <!-- Table headers -->
+        <div class="table-column-label">Criteria</div>
+        <div class="table-column-label">A/Excellent<br>[25-22.5pts]</div>
+        <div class="table-column-label">B/Average<br>[21.5-20pts]</div>
+        <div class="table-column-label">C/Below Average<br>[19.5-17.5pts]</div>
+        <div class="table-column-label">D or below/Poor<br>[17-0pts]</div>
+
+  <!-- HTML & CSS -->
+        <div class="table-row-label">HTML & CSS</div>
+        <div class="table-cell">The web site demonstrates effective use of the technologies and design techniques explored in class, going significantly beyond course materials and requirements. Site is entirely free of validation errors.</div>
+        <div class="table-cell">The web site demonstrates effective use of the technologies and design techniques explored in class, going beyond course materials in a few instances. Site includes an occasional validation error or could have been implemented in a better way.</div>
+        <div class="table-cell">The web site demonstrates some use of the technologies and design techniques explored in class. Site includes significant validation errors.</div>
+        <div class="table-cell">The web site fails to make use of the technologies and design techniques explored in class.</div>
+
+  <!-- Content -->
+        <div class="table-row-label">Content</div>
+        <div class="table-cell">The web site has a clearly-stated purpose, supported by consistent and extensive content.</div>
+        <div class="table-cell">The web site has a well-stated and clear purpose. Content is developed in-depth throughout the web site.</div>
+        <div class="table-cell">The web site has a clearly stated purpose and theme, but may have several content elements lacking in depth.</div>
+        <div class="table-cell">The purpose of the web site is vague and content is poorly developed or missing.</div>
+
+  <!-- Technical Requirements -->
+        <div class="table-row-label">Technical Requirements</div>
+        <div class="table-cell">All directions followed exactly, e.g. file naming conventions, HTML validated, all CSS styles in external style file, etc.</div>
+        <div class="table-cell">Most directions followed, e.g. file naming conventions, HTML validated, CSS placement, etc.</div>
+        <div class="table-cell">Some directions followed, e.g. file naming conventions, HTML validated, CSS placement, etc.</div>
+        <div class="table-cell">Few or no directions followed, e.g. file naming conventions, HTML validated, CSS placement, etc.</div>
+
+    </div>
+</div>
+
+<div id="footer">
+    <footer>
+        <p>&copy; 2026 Julie K. Smitka</p>
+    </footer>
+</div>
+
+</body>
+</html>
