@@ -183,6 +183,51 @@ figure
     display: block;
 }
 
+/* Grid practice...trying a table without the table tag */
+.grid-table 
+    {
+        display: grid;
+        grid-template-columns: 20% repeat(4, 1fr); /*First column takes 20% of the width. "Repeat" means it's done again, 4 times here, each getting an equal fraction (fr) of what's left after that 20%. */
+        width: 100%;
+        margin: 20px 0;
+        border-top: 1px solid #851a23;
+        border-left: 1px solid #851a23;
+        box-sizing: border-box;
+    }
+    
+    .table-column-label 
+    {
+        background: #851a23;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 5px;
+        border-right: 1px solid #851a23;
+        border-bottom: 1px solid #851a23;
+        overflow-wrap: break-word;
+    }
+    
+    .table-row-label 
+    {
+        background: rgb(171, 124, 212);
+        color: black;
+        font-weight: bold;
+        padding: 10px 5px;
+        border-right: 1px solid #851a23;
+        border-bottom: 1px solid #851a23;
+        overflow-wrap: break-word;
+    }
+    
+    .table-cell 
+    {
+        padding: 10px 8px;
+        border-right: 1px solid #851a23;
+        border-bottom: 1px solid #851a23;
+        text-align: left;
+        vertical-align: top;
+        overflow-wrap: break-word;
+}
+
 #footer 
 {
     clear:both;
